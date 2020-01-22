@@ -1,0 +1,8 @@
+package com.graphql.example.startergraphql.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class VehicleRepository extends JpaRepository<Vehicle,Integer>{
+
+}

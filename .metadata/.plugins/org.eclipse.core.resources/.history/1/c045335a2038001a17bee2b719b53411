@@ -1,0 +1,5 @@
+package com.graphql.example.startergraphql.repository;
+
+public class VehicleRepository {
+
+}

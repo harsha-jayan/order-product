@@ -1,0 +1,11 @@
+package com.graphql.example.startergraphql.mutation;
+
+public class VehicleMutationResolver implements GraphQLMutationResolver {
+	
+	@Autowired
+    private VehicleService vehicleService;
+    public Vehicle createVehicle(final String type, final String modelCode, final String brandName, final String launchDate) {
+        return this.vehicleService.createVehicle(type, modelCode, brandName, launchDate);
+    }
+
+}

@@ -1,0 +1,32 @@
+package com.soagrowers.productquery.service;
+
+import java.time.LocalDate;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.soagrowers.productquery.domain.Product;
+import com.soagrowers.productquery.handlers.ProductViewEventHandler;
+import com.soagrowers.productquery.repository.ProductRepository;
+
+@Service
+public class ProductService {
+
+	private static final Logger LOG = LoggerFactory.getLogger(ProductService.class);
+
+	@Autowired
+	ProductRepository productRepository;
+
+	/*
+	 * @Transactional public Product updateProduct(String id, String name ,boolean
+	 * salable ) { if (productRepository.exists(id)) { Product product =
+	 * productRepository.findOne(id); product.setName(name); return
+	 * this.productRepository.save(product); } else {
+	 * LOG.error("No product is there in database with specified Id"); return null;
+	 * } }
+	 */
+
+}

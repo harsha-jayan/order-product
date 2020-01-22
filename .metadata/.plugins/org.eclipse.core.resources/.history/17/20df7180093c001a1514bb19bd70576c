@@ -1,0 +1,13 @@
+package com.soagrowers.productquery.querysidegraphql;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class QuerySideGraphqlApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(QuerySideGraphqlApplication.class, args);
+	}
+
+}

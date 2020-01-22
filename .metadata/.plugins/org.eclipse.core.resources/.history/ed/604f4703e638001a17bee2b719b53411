@@ -1,0 +1,22 @@
+package com.soagrowers.productquery.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.soagrowers.productquery.domain.Product;
+import com.soagrowers.productquery.repository.ProductRepository;
+
+@Service
+public class ProductService {
+
+	@Autowired
+	ProductRepository productRepository;
+	
+	@Transactional
+	public Product updateProdcut(String id,String name) {
+		
+	}
+	
+	
+}

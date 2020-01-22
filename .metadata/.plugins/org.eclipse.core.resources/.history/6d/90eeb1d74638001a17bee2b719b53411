@@ -1,0 +1,6 @@
+package com.soagrowers.productquery.service;
+
+@Service
+public class ProductService {
+
+}

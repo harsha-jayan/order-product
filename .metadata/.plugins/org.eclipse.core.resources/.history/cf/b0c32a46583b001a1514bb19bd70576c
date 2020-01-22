@@ -1,0 +1,23 @@
+package com.soagrowers.productquery.query;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import com.graphql.example.startergraphql.entity.Vehicle;
+import com.soagrowers.productquery.domain.Product;
+import com.soagrowers.productquery.service.ProductService;
+
+public class ProductQueryResolver implements GraphQLQueryResolver {
+	
+	@Autowired
+	private ProductService productService;
+	
+	public List<Product> getVehicles(final int count) {
+		return this.productService.getAllProdcuts(count);
+	}
+	
+
+}

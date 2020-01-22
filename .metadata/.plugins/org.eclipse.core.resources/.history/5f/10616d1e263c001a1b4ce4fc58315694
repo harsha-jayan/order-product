@@ -1,0 +1,5 @@
+package com.soagrowers.productquery.querysidegraphql.repository;
+
+public class ReadOnlyPagingAndSortingRepository {
+
+}

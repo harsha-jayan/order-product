@@ -1,0 +1,18 @@
+package com.example.demo.client;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.netflix.discovery.DiscoveryClient;
+
+@Component
+public class InventoryClient {
+	
+	@Autowired
+	private DiscoveryClient discoveryClient;
+	
+	public String insertToInventory() {
+		return "success";
+	}
+
+}

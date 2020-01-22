@@ -1,0 +1,14 @@
+package com.example.demo.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class InventoryServiceImpl implements InventoryService {
+
+	@Override
+	public String insertToInventory() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

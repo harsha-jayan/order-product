@@ -1,0 +1,5 @@
+type Products{
+	id:String
+	Name:String
+	Saleble:boolean
+}

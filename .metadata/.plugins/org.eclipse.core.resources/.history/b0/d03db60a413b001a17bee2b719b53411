@@ -1,0 +1,9 @@
+type Product{
+	id:String!,
+	name:String,
+	saleble:boolean
+}
+
+type Mutation {
+ updateProductName(productId: String!, name: String): Product
+}

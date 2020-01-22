@@ -1,0 +1,5 @@
+package com.soagrowers.productquery.querysidegraphql.entity;
+
+public class Product {
+
+}

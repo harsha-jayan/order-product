@@ -1,0 +1,24 @@
+package com.graphql.example.startergraphql.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import org.hibernate.annotations.GeneratorType;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode
+@Entity
+public class Vehicle {
+	
+	@Id
+	@Column(name="ID",nullable = false)
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
+
+}

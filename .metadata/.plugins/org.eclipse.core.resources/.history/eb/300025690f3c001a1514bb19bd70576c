@@ -1,0 +1,13 @@
+package com.soagrowers.productquery.querysidegraphql.entity;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode
+@Entity
+public class Product {
+
+}

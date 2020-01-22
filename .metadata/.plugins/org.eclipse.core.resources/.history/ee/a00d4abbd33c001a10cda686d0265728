@@ -1,0 +1,15 @@
+package com.example.demo.entity;
+
+import lombok.Data;
+
+@Data
+public class Product {
+	
+	@Id
+	private String productId;
+	
+	private String prodName;
+	
+	private int price;
+
+}

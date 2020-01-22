@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\harsha.jayan\OneDrive - Accenture\Attachments\MicroServices\Spring Cloud\2_Employee_Consumer_Eureka_Demo10004"/>
+			<item value="C:\Users\harsha.jayan\OneDrive - Accenture\Attachments\MicroServices\Spring Cloud\1_Employee_Producer_Eureka_Demo10004"/>
+			<item value="C:\Users\harsha.jayan\Downloads\eureka-server01\eureka-server01"/>
+			<item value="C:\Users\harsha.jayan\OneDrive - Accenture\Attachments\MicroServices\Spring Cloud\0_EurekaServer"/>
+			<item value="C:\Users\harsha.jayan\Downloads\starter-graphql\starter-graphql"/>
+			<item value="C:\Users\harsha.jayan\Downloads\starter-rabbit-mq\starter-rabbit-mq"/>
+			<item value="C:\Users\harsha.jayan\Downloads\cqrs-es-axon\cqrs-es-axon"/>
+			<item value="C:\Users\harsha.jayan\Downloads\spring-boot-zuul-proxy-gateway\spring-boot-zuul-proxy-gateway"/>
+			<item value="C:\Users\harsha.jayan\Downloads\spring-boot-zuul-proxy-gateway-student-service\spring-boot-zuul-proxy-gateway-student-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

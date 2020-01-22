@@ -1,0 +1,5 @@
+package com.soagrowers.productquery.querysidegraphql.handlers;
+
+public class ProductEventHandler {
+
+}

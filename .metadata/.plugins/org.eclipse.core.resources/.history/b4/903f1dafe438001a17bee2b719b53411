@@ -1,0 +1,15 @@
+package com.soagrowers.productquery.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.soagrowers.productquery.repository.ProductRepository;
+
+@Service
+public class ProductService {
+
+	@Autowired
+	ProductRepository productRepository;
+	
+	
+}

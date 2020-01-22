@@ -1,0 +1,5 @@
+package com.soagrowers.productquery.querysidegraphql;
+
+public class ProductRepository {
+
+}

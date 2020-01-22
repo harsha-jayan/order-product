@@ -1,0 +1,5 @@
+package com.soagrowers.productquery;
+
+public class ProductQueryResolver {
+
+}

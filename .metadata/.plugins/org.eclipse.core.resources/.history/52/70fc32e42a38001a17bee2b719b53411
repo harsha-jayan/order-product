@@ -1,0 +1,7 @@
+package com.graphql.example.startergraphql.query;
+
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+
+public class VehicleQueryResolver implements GraphQLQueryResolver{
+
+}

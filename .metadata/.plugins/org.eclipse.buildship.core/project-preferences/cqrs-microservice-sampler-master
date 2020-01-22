@@ -1,0 +1,12 @@
+#
+#Tue Jan 21 16:47:12 IST 2020
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=command-side;common-things;config-service;discovery-service;gateway-service;integration-test;query-side
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=2.14
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;command-side/build;common-things/build;config-service/build;discovery-service/build;gateway-service/build;integration-test/build;query-side/build

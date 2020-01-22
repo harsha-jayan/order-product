@@ -1,0 +1,10 @@
+package com.graphql.example.startergraphql.entity;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode
+public class Vehicle {
+
+}

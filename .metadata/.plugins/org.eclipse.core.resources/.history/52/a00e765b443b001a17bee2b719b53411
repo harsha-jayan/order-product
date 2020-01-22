@@ -1,0 +1,18 @@
+package com.soagrowers.productquery.mutation;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.coxautodev.graphql.tools.GraphQLMutationResolver;
+import com.soagrowers.productquery.domain.Product;
+import com.soagrowers.productquery.service.ProductService;
+
+public class ProductMutationResolver implements GraphQLMutationResolver {
+	
+	@Autowired
+	ProductService productService;
+	
+	public Product updateProductName(String id, String name) {
+		return this.productService.updateProduct(id,name);
+	}
+
+}

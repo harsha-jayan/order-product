@@ -1,0 +1,17 @@
+package com.soagrowers.productquery.querysidegraphql.entity;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+
+import com.graphql.example.startergraphql.entity.Vehicle;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode
+@Entity
+public class Product {
+
+}

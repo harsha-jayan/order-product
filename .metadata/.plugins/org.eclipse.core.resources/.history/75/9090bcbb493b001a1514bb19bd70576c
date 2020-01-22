@@ -1,0 +1,13 @@
+package com.soagrowers.productquery.query;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+
+public class ProductQueryResolver implements GraphQLQueryResolver {
+	
+	@Autowired
+	private ProductService productService;
+	
+
+}

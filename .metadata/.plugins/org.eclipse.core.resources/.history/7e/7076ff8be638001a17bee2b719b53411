@@ -1,0 +1,42 @@
+package com.soagrowers.productquery.service;
+
+import java.time.LocalDate;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.graphql.example.startergraphql.entity.Vehicle;
+import com.soagrowers.productquery.domain.Product;
+import com.soagrowers.productquery.repository.ProductRepository;
+
+@Service
+public class ProductService {
+
+	@Autowired
+	ProductRepository productRepository;
+	
+	@Transactional
+	public Product updateProdcut(String id, String name/* ,boolean salable */) {
+        if (productRepository.exists(id)) {
+        	Product product = productRepository.findOne(id);
+        	product.setName(name);
+            return this.productRepository.save(product);
+        }
+        else {
+        	return null;
+        }
+	}
+	
+	 @Transactional
+	    public Vehicle createVehicle(final String type,final String modelCode, final String brandName, final String launchDate) {
+	        final Vehicle vehicle = new Vehicle();
+	        vehicle.setType(type);
+	        vehicle.setModelCode(modelCode);
+	        vehicle.setBrandName(brandName);
+	        vehicle.setLaunchDate(LocalDate.parse(launchDate));
+	        return this.vehicleRepository.save(vehicle);
+	    }
+	
+	
+}

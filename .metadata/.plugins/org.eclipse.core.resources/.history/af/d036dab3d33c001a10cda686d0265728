@@ -1,0 +1,12 @@
+package com.example.demo.entity;
+
+@Data
+public class Product {
+	
+	private String productId;
+	
+	private String prodName;
+	
+	private int price;
+
+}

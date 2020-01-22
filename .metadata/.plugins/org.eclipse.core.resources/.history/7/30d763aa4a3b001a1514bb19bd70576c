@@ -1,0 +1,21 @@
+package com.soagrowers.productquery.query;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.coxautodev.graphql.tools.GraphQLQueryResolver;
+import com.soagrowers.productquery.domain.Product;
+import com.soagrowers.productquery.service.ProductService;
+
+public class ProductQueryResolver implements GraphQLQueryResolver {
+	
+	@Autowired
+	private ProductService productService;
+	
+	public Optional<Product> getVehicle(final int id) {
+		return this.productService.getVehicle(id);
+	}
+	
+
+}

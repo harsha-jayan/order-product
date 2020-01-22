@@ -1,0 +1,13 @@
+package com.graphql.example.startergraphql.entity;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@Data
+@EqualsAndHashCode
+@Entity
+public class Vehicle {
+
+}

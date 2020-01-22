@@ -1,0 +1,7 @@
+spring.application.name=producer-product
+spring.data.mongodb.database=myProducts
+spring.data.mongodb.port=27017
+spring.data.mongodb.host=localhost
+
+server.port=7091
+eureka.client.serviceUrl.defaultZone  = http://localhost:8762/
